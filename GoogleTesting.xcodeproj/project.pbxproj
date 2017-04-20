@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0BC0AB971EA8BAD40031DD9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0AB961EA8BAD40031DD9A /* main.cpp */; };
+		0BC0AB9F1EA8C2410031DD9A /* lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0AB9E1EA8C2410031DD9A /* lib.cpp */; };
+		0BC0ABA11EA8C4240031DD9A /* lib_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0ABA01EA8C4240031DD9A /* lib_test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0BC0AB931EA8BAD40031DD9A /* GoogleTesting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoogleTesting; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC0AB961EA8BAD40031DD9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BC0AB9D1EA8C0B30031DD9A /* lib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lib.hpp; sourceTree = "<group>"; };
+		0BC0AB9E1EA8C2410031DD9A /* lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lib.cpp; sourceTree = "<group>"; };
+		0BC0ABA01EA8C4240031DD9A /* lib_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lib_test.cpp; sourceTree = "<group>"; };
+		0BC0ABA21EA8C6260031DD9A /* makefile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = makefile.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0BC0AB961EA8BAD40031DD9A /* main.cpp */,
+				0BC0AB9D1EA8C0B30031DD9A /* lib.hpp */,
+				0BC0AB9E1EA8C2410031DD9A /* lib.cpp */,
+				0BC0ABA01EA8C4240031DD9A /* lib_test.cpp */,
+				0BC0ABA21EA8C6260031DD9A /* makefile.sh */,
 			);
 			path = GoogleTesting;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC0ABA11EA8C4240031DD9A /* lib_test.cpp in Sources */,
 				0BC0AB971EA8BAD40031DD9A /* main.cpp in Sources */,
+				0BC0AB9F1EA8C2410031DD9A /* lib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
